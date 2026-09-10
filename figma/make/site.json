@@ -1,0 +1,10 @@
+{
+  "description": "Explore premium dried flowers and botanical decor while engaging in immersive storytelling and hands-on workshops for a unique interior experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
