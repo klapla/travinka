@@ -249,7 +249,7 @@ function Scene1() {
   return (
     <CinematicScene
       id="hero"
-      posterUrl="https://images.unsplash.com/photo-1784391628220-571e8b7c27c0?w=1080&h=1920&fit=crop&auto=format"
+      posterUrl="https://s6.iimage.su/s/10/g3CRIA6xahWKzCnndBFwz05cJzR6wsy7LuHefrLNQ.png"
       videoUrl="https://videos.pexels.com/video-files/4611630/4611630-hd_1280_720_25fps.mp4"
       kbClass="kenBurnsA"
       kbDuration={24}
@@ -281,7 +281,7 @@ function Scene2() {
   return (
     <CinematicScene
       id="scene2"
-      posterUrl="https://images.unsplash.com/photo-1732612469076-21e587d512ed?w=1080&h=1920&fit=crop&auto=format"
+      posterUrl="https://s6.iimage.su/s/10/g0siKYPxJKRsMSTjz5sL2P7eSEcqAPCtvdYhzb866.png"
       videoUrl="https://videos.pexels.com/video-files/7710248/7710248-hd_1280_720_25fps.mp4"
       kbClass="kenBurnsB"
       kbDuration={20}
@@ -315,7 +315,7 @@ function Scene3() {
     <CinematicScene
       id="scene3"
       posterUrl="https://images.unsplash.com/photo-1610790746908-332a9ddaf1b7?w=1080&h=1920&fit=crop&auto=format"
-      videoUrl="https://videos.pexels.com/video-files/5527999/5527999-hd_1280_720_25fps.mp4"
+      videoUrl="https://static.vecteezy.com/system/resources/previews/045/628/878/watermarked/dried-blue-flowers-in-purple-hues-rotate-close-up-beautiful-lagurus-falyaris-and-spikelets-in-a-beautiful-bouquet-gift-bouquet-of-dried-flowers-video.mp4"
       kbClass="kenBurnsC"
       kbDuration={26}
       photoPosition="center center"
@@ -348,7 +348,7 @@ function Scene4() {
   return (
     <CinematicScene
       id="scene4"
-      posterUrl="https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=1920&h=1080&fit=crop&auto=format"
+      posterUrl="https://s6.iimage.su/s/10/gkO2skaxh51rgsiNNmQhQFtEikg5KkR41QnD96qVa.png"
       videoUrl="https://videos.pexels.com/video-files/3770885/3770885-hd_1920_1080_30fps.mp4"
       kbClass="kenBurnsD"
       kbDuration={32}
@@ -397,17 +397,17 @@ function Scene4() {
 const COLLECTIONS = [
   {
     num: '01', title: 'Интерьерные букеты',
-    img: 'https://images.unsplash.com/photo-1612611451177-033406f3a9f4?w=600&h=800&fit=crop&auto=format',
+    img: 'https://s6.iimage.su/s/10/gjV2PY9xBsjeYOnjjEYhfkpuMFRYbYVfiOioGp7HG.png',
     category: 'interior',
   },
   {
     num: '02', title: 'Свадебное оформление',
-    img: 'https://images.unsplash.com/photo-1759496330287-793d1dc53323?w=600&h=800&fit=crop&auto=format',
+    img: 'https://s6.iimage.su/s/10/glmnk1kxXC8e0yz095jv0tZ2DCAOdLMA3nKte9Gwj.png',
     category: 'wedding',
   },
   {
     num: '03', title: 'Авторский декор',
-    img: 'https://images.unsplash.com/photo-1610790747236-6a23130e4f95?w=600&h=800&fit=crop&auto=format',
+    img: 'https://s6.iimage.su/s/10/g9Q7AVyxf5dFymR8dBSGJCMQEe01NdYLr9ClkMogZ.png',
     category: 'handmade',
   },
 ];
@@ -517,21 +517,21 @@ const EVENTS = [
     date: 'Каждая суббота, 16:00',
     price: '1 500 ₽',
     desc: 'Практический интенсив: объемное настенное панно из текстурной пасты, стабилизированного мха и ветвей корицы. Готовая работа — арт-объект вашего интерьера.',
-    img: 'https://images.unsplash.com/photo-1506806732259-39c2d0268443?w=600&h=340&fit=crop&auto=format',
+    img: 'https://s6.iimage.su/s/10/g93PiRkxUcyjk94HYP6NUCLcA7FNUkJmM9GqzAhts.png',
   },
   {
     title: 'Свадебный венок & Бутоньерка',
     date: 'Каждое воскресенье, 14:00',
     price: '2 100 ₽',
     desc: 'Погружение в свадебную флористику. Хрупкий хлопок, воздушный лагурус, сухоцветы. Комплект, который сохранит память о главном дне.',
-    img: 'https://images.unsplash.com/photo-1759496330287-793d1dc53323?w=600&h=340&fit=crop&auto=format',
+    img: 'https://s6.iimage.su/s/10/g5eYWffxnuiIXKXwYuy47glFsEiFphKCAnsCWUD1M.png',
   },
   {
     title: 'Арома-диффузоры и ботаника',
     date: 'Каждая среда, 19:30',
     price: '1 800 ₽',
     desc: 'Вечерняя сессия. Индивидуальный интерьерный парфюм с ботаническими элементами: бутоны роз, лаванда, корица. Эстетика через аромат.',
-    img: 'https://images.unsplash.com/photo-1769538515234-6f307ce6143a?w=600&h=340&fit=crop&auto=format',
+    img: 'https://s6.iimage.su/s/10/g1P9Xqgxrdj58aQodTinNVHb8WmycOEp2aNmLFhUm.png',
   },
 ];
 
@@ -693,7 +693,7 @@ function EventsSection() {
       {/* Photo background */}
       <div style={{
         position: 'absolute', inset: '-5%',
-        backgroundImage: 'url(https://images.unsplash.com/photo-1773967431922-738f48d888d5?w=1080&h=800&fit=crop&auto=format)',
+        backgroundImage: 'url(https://s6.iimage.su/s/10/g5cAs3ax8eNOmFGjp9VXDSDsMh3F2HODGR8LgkjcG.png)',
         backgroundSize: 'cover', backgroundPosition: 'center 60%',
         filter: 'brightness(0.22) saturate(0.5)',
         animation: 'kenBurnsC 30s ease-in-out infinite alternate',
@@ -761,10 +761,10 @@ function FooterSection({ onCatalog }: { onCatalog: () => void }) {
         <ContactBtn href="https://t.me/travinka_yaroslavl" label="Telegram" sub="@travinka_yaroslavl"
           icon={<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>}
         />
-        <ContactBtn href="https://wa.me/79201141104" label="WhatsApp" sub="+7 (920) 114-11-04"
+        <ContactBtn href="https://travinka.space/" label="VK" sub="Группа вконтакте"
           icon={<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>}
         />
-        <ContactBtn href="tel:+79201141104" label="Телефон" sub="+7 (920) 114-11-04"
+        <ContactBtn href="tel:+79056459955" label="Телефон" sub="+7 (905) 645-99-55"
           icon={<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>}
         />
       </div>
@@ -797,14 +797,14 @@ function FooterSection({ onCatalog }: { onCatalog: () => void }) {
 // ─── CATALOG PAGE ─────────────────────────────────────────────────────────────
 
 const PRODUCTS = [
-  { id: 1, title: 'Лавандовый туман',    price: '2 800 ₽', tag: 'Интерьерный', img: 'https://images.unsplash.com/photo-1786282257770-9aada5ef1571?w=400&h=560&fit=crop&auto=format' },
-  { id: 2, title: 'Осенний сбор',        price: '3 400 ₽', tag: 'Интерьерный', img: 'https://images.unsplash.com/photo-1485754857203-23ffa89c37d2?w=400&h=560&fit=crop&auto=format' },
-  { id: 3, title: 'Белая роща',          price: '4 100 ₽', tag: 'Свадебный',   img: 'https://images.unsplash.com/photo-1610790747053-56f8d9f3731c?w=400&h=560&fit=crop&auto=format' },
-  { id: 4, title: 'Пшеничный закат',     price: '2 600 ₽', tag: 'Интерьерный', img: 'https://images.unsplash.com/photo-1710694863566-48ac7b11f75d?w=400&h=560&fit=crop&auto=format' },
-  { id: 5, title: 'Ботаника №5',         price: '5 200 ₽', tag: 'Премиум',     img: 'https://images.unsplash.com/photo-1760538108909-ef607f86cc55?w=400&h=560&fit=crop&auto=format' },
-  { id: 6, title: 'Свадебный букет',     price: '3 000 ₽', tag: 'Свадебный',   img: 'https://images.unsplash.com/photo-1759496330287-793d1dc53323?w=400&h=560&fit=crop&auto=format' },
-  { id: 7, title: 'Вечная осень',        price: '3 800 ₽', tag: 'Интерьерный', img: 'https://images.unsplash.com/photo-1610790746908-332a9ddaf1b7?w=400&h=560&fit=crop&auto=format' },
-  { id: 8, title: 'Лавандовый рай',      price: '4 500 ₽', tag: 'Интерьерный', img: 'https://images.unsplash.com/photo-1612611451177-033406f3a9f4?w=400&h=560&fit=crop&auto=format' },
+  { id: 1, title: 'Лавандовый туман',    price: '2 800 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/gqZ4HV8xrOJsSptrVfqYq2IY9IAtgwDMkUthEZzqj.png' },
+  { id: 2, title: 'Осенний сбор',        price: '3 400 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/gK7aMoux4esYct0by0Mzyy9H4fzFrX3I54nkSnbjF.png' },
+  { id: 3, title: 'Белая роща',          price: '4 100 ₽', tag: 'Свадебный',   img: 'https://s6.iimage.su/s/10/gK7aMoux4esYct0by0Mzyy9H4fzFrX3I54nkSnbjF.png' },
+  { id: 4, title: 'Пшеничный закат',     price: '2 600 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/goTEyjxxQUACRRaSnwVp5XYza1Hzhi40IabOBCpAE.png' },
+  { id: 5, title: 'Ботаника №5',         price: '5 200 ₽', tag: 'Премиум',     img: 'https://s6.iimage.su/s/10/g3JMrI1x8zyh0qmWCdG8Be4ecqKS4k3Fs8yoGOMz2.png' },
+  { id: 6, title: 'Свадебный букет',     price: '3 000 ₽', tag: 'Свадебный',   img: 'https://s6.iimage.su/s/10/g3JMrI1x8zyh0qmWCdG8Be4ecqKS4k3Fs8yoGOMz2.png' },
+  { id: 7, title: 'Вечная осень',        price: '3 800 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/gM5tcYqxO8wAlDMk1kg4EH1BlHD85Z5zh1SrSaMz5.png' },
+  { id: 8, title: 'Лавандовый рай',      price: '4 500 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/ghPLAG7xKMQqCABmz7pz6btmWIiX6PMm2CiuDnA4o.png' },
 ];
 
 function ProductCard({ product }: { product: typeof PRODUCTS[0] }) {
@@ -877,7 +877,7 @@ function CatalogPage({ onBack }: { onBack: () => void }) {
       <section style={{ position: 'relative', height: '62svh', minHeight: 380, overflow: 'hidden' }}>
         <div style={{
           position: 'absolute', inset: '-5%',
-          backgroundImage: 'url(https://images.unsplash.com/photo-1772672828397-96dd909eb268?w=1920&h=1080&fit=crop&auto=format)',
+          backgroundImage: 'url(https://s6.iimage.su/s/10/gy99b0ixeP6FMnRhTgcnnB9w9kPyJWJLQd9VOk4VF.png)',
           backgroundSize: 'cover', backgroundPosition: 'center 40%',
           animation: 'kenBurnsA 26s ease-in-out infinite alternate',
         }} />
