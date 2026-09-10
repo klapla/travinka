@@ -249,7 +249,7 @@ function Scene1() {
   return (
     <CinematicScene
       id="hero"
-      posterUrl="https://s6.iimage.su/s/10/g3CRIA6xahWKzCnndBFwz05cJzR6wsy7LuHefrLNQ.png" loading="lazy"
+      posterUrl="https://sun9-31.vkuserphoto.ru/s/v1/ig2/17CxlXQcXsAlYHvlq-pS2S3D2Z60V6T6wXe0E-vbSga0oh3cSJ-GH6NlBSAgQVIsdqj5wBZ0piRoD0M0Aa9845jg.jpg?quality=95&as=32x57,48x85,72x128,108x192,160x284,240x427,360x640,480x853,540x960,640x1138,720x1280,1080x1920&from=bu&cs=1080x0" loading="lazy"
       kbClass="kenBurnsA"
       kbDuration={24}
       photoPosition="center 40%"
@@ -280,7 +280,7 @@ function Scene2() {
   return (
     <CinematicScene
       id="scene2"
-      posterUrl="https://s6.iimage.su/s/10/g0siKYPxJKRsMSTjz5sL2P7eSEcqAPCtvdYhzb866.png" loading="lazy"
+      posterUrl="https://sun9-78.vkuserphoto.ru/s/v1/ig2/8ApapUGgXQkTSUk26-NE_MEWF05fK36gtKclPL5E0e1yNoKXNNCtpaFonPGzdsZG48EwrD8isPU4cpaCPJKfrc5i.jpg?quality=95&as=32x57,48x85,72x128,108x192,160x284,240x427,360x640,480x853,540x960,640x1138,720x1280,1080x1920&from=bu&cs=1080x0" loading="lazy"
       kbClass="kenBurnsB"
       kbDuration={20}
       photoPosition="center 35%"
@@ -345,7 +345,7 @@ function Scene4() {
   return (
     <CinematicScene
       id="scene4"
-      posterUrl="https://s6.iimage.su/s/10/gkO2skaxh51rgsiNNmQhQFtEikg5KkR41QnD96qVa.png" loading="lazy"
+      posterUrl="https://sun9-87.vkuserphoto.ru/s/v1/ig2/BdA78PFsWyy0QznY-SBb2S36YCKrFEKqtN7rmzu3jiRC7pyAEpq8-Qa9BWY3eGzZUridLePc3_Yr0Ht2bRPji-IC.jpg?quality=95&as=32x18,48x27,72x40,108x61,160x90,240x135,360x202,480x270,540x304,640x360,720x405,1080x607,1280x720,1440x810,1920x1080&from=bu&u=itPzndhx7R899WC_q8EFnSqxb58Y9K3N6zeUjeS1j0Y&cs=1920x0" loading="lazy"
       kbClass="kenBurnsD"
       kbDuration={32}
       photoPosition="center 55%"
@@ -393,17 +393,17 @@ function Scene4() {
 const COLLECTIONS = [
   {
     num: '01', title: 'Интерьерные букеты',
-    img: 'https://s6.iimage.su/s/10/gjV2PY9xBsjeYOnjjEYhfkpuMFRYbYVfiOioGp7HG.png',
+    img: 'https://sun9-8.vkuserphoto.ru/s/v1/ig2/yPnjirGGnVmGCS7Lp69wXaLJJ8lBcK6fTpinw52N9Re55liR3O4UQC5UlDhqbDvfjHCTGx3rqO2yEhhvpoFSL-hm.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,600x800&from=bu&cs=600x0',
     category: 'interior',
   },
   {
     num: '02', title: 'Свадебное оформление',
-    img: 'https://s6.iimage.su/s/10/glmnk1kxXC8e0yz095jv0tZ2DCAOdLMA3nKte9Gwj.png',
+    img: 'https://sun9-13.vkuserphoto.ru/s/v1/ig2/n0GjDebISNsiUeec734NShRF7fnJo4MAwJS4OOz7GWaJN_IR5HSOrMLuT5gPjJDN8i8SQlgZDV07SnlB8PhPSEUW.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,600x800&from=bu&cs=600x0',
     category: 'wedding',
   },
   {
     num: '03', title: 'Авторский декор',
-    img: 'https://s6.iimage.su/s/10/g9Q7AVyxf5dFymR8dBSGJCMQEe01NdYLr9ClkMogZ.png',
+    img: 'https://sun9-71.vkuserphoto.ru/s/v1/ig2/C0091pcmkD0VZyLDZjW0PdxZHz4FJdSWHBnCIAozpNQ3IsRd7L6A3d7g51CEIRMzld2lm9cEzW1Q7uICO8e3RpDN.jpg?quality=95&as=32x18,48x27,72x41,108x61,160x91,240x136,360x204,480x272,540x306,600x340&from=bu&cs=600x0',
     category: 'handmade',
   },
 ];
@@ -513,21 +513,21 @@ const EVENTS = [
     date: 'Каждая суббота, 16:00',
     price: '1 500 ₽',
     desc: 'Практический интенсив: объемное настенное панно из текстурной пасты, стабилизированного мха и ветвей корицы. Готовая работа — арт-объект вашего интерьера.',
-    img: 'https://s6.iimage.su/s/10/g93PiRkxUcyjk94HYP6NUCLcA7FNUkJmM9GqzAhts.png',
+    img: 'https://sun9-7.vkuserphoto.ru/s/v1/ig2/Nv49spBgFLehs2aufHriZrjLt6JIfo8SfKzmVLhWVGmYxxeFPsfxlYiSBVIPt6rx9AvQCqxOtlj9o_YZAveq6Fkb.jpg?quality=95&as=32x18,48x27,72x41,108x61,160x91,240x136,360x204,480x272,540x306,600x340&from=bu&cs=600x0',
   },
   {
     title: 'Свадебный венок & Бутоньерка',
     date: 'Каждое воскресенье, 14:00',
     price: '2 100 ₽',
     desc: 'Погружение в свадебную флористику. Хрупкий хлопок, воздушный лагурус, сухоцветы. Комплект, который сохранит память о главном дне.',
-    img: 'https://s6.iimage.su/s/10/g5eYWffxnuiIXKXwYuy47glFsEiFphKCAnsCWUD1M.png',
+    img: 'https://sun9-71.vkuserphoto.ru/s/v1/ig2/C0091pcmkD0VZyLDZjW0PdxZHz4FJdSWHBnCIAozpNQ3IsRd7L6A3d7g51CEIRMzld2lm9cEzW1Q7uICO8e3RpDN.jpg?quality=95&as=32x18,48x27,72x41,108x61,160x91,240x136,360x204,480x272,540x306,600x340&from=bu&cs=600x0',
   },
   {
     title: 'Арома-диффузоры и ботаника',
     date: 'Каждая среда, 19:30',
     price: '1 800 ₽',
     desc: 'Вечерняя сессия. Индивидуальный интерьерный парфюм с ботаническими элементами: бутоны роз, лаванда, корица. Эстетика через аромат.',
-    img: 'https://s6.iimage.su/s/10/g1P9Xqgxrdj58aQodTinNVHb8WmycOEp2aNmLFhUm.png',
+    img: 'https://sun9-71.vkuserphoto.ru/s/v1/ig2/aMr7O2AUX6U-2PfaBTvjBzCCnA4MchvV-cZrypmvun-hgo9Yc7nuEaQALYxHJj-Rk1ZGMQ1Um5m3UhSpgSGYfIrc.jpg?quality=95&as=32x18,48x27,72x41,108x61,160x91,240x136,360x204,480x272,540x306,600x340&from=bu&cs=600x0',
   },
 ];
 
@@ -689,7 +689,7 @@ function EventsSection() {
       {/* Photo background */}
       <div style={{
         position: 'absolute', inset: '-5%',
-        backgroundImage: 'url(https://s6.iimage.su/s/10/g5cAs3ax8eNOmFGjp9VXDSDsMh3F2HODGR8LgkjcG.png)',
+        backgroundImage: 'url(https://sun9-81.vkuserphoto.ru/s/v1/ig2/miFfLB-MehKKZjVrZmVq5pD_Bu-iQJ6AJBDvclQ14QIy-VqjqPnkjwpBPf92UQ1CdBda3Uf2Svy0Gm_XUXh9b8dL.jpg?quality=95&as=32x24,48x36,72x53,108x80,160x119,240x178,360x267,480x356,540x400,640x474,720x533,1080x800&from=bu&cs=1080x0)',
         backgroundSize: 'cover', backgroundPosition: 'center 60%',
         filter: 'brightness(0.22) saturate(0.5)',
         animation: 'kenBurnsC 30s ease-in-out infinite alternate',
