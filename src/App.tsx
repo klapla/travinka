@@ -249,7 +249,7 @@ function Scene1() {
   return (
     <CinematicScene
       id="hero"
-      posterUrl="https://s6.iimage.su/s/10/g3CRIA6xahWKzCnndBFwz05cJzR6wsy7LuHefrLNQ.png"
+      posterUrl="https://s6.iimage.su/s/10/g3CRIA6xahWKzCnndBFwz05cJzR6wsy7LuHefrLNQ.png" loading="lazy"
       videoUrl="https://videos.pexels.com/video-files/4611630/4611630-hd_1280_720_25fps.mp4"
       kbClass="kenBurnsA"
       kbDuration={24}
@@ -281,7 +281,7 @@ function Scene2() {
   return (
     <CinematicScene
       id="scene2"
-      posterUrl="https://s6.iimage.su/s/10/g0siKYPxJKRsMSTjz5sL2P7eSEcqAPCtvdYhzb866.png"
+      posterUrl="https://s6.iimage.su/s/10/g0siKYPxJKRsMSTjz5sL2P7eSEcqAPCtvdYhzb866.png" loading="lazy"
       videoUrl="https://videos.pexels.com/video-files/7710248/7710248-hd_1280_720_25fps.mp4"
       kbClass="kenBurnsB"
       kbDuration={20}
@@ -314,7 +314,7 @@ function Scene3() {
   return (
     <CinematicScene
       id="scene3"
-      posterUrl="https://images.unsplash.com/photo-1610790746908-332a9ddaf1b7?w=1080&h=1920&fit=crop&auto=format"
+      posterUrl="https://images.unsplash.com/photo-1610790746908-332a9ddaf1b7?w=1080&h=1920&fit=crop&auto=format" loading="lazy"
       videoUrl="https://static.vecteezy.com/system/resources/previews/045/628/878/watermarked/dried-blue-flowers-in-purple-hues-rotate-close-up-beautiful-lagurus-falyaris-and-spikelets-in-a-beautiful-bouquet-gift-bouquet-of-dried-flowers-video.mp4"
       kbClass="kenBurnsC"
       kbDuration={26}
@@ -348,7 +348,7 @@ function Scene4() {
   return (
     <CinematicScene
       id="scene4"
-      posterUrl="https://s6.iimage.su/s/10/gkO2skaxh51rgsiNNmQhQFtEikg5KkR41QnD96qVa.png"
+      posterUrl="https://s6.iimage.su/s/10/gkO2skaxh51rgsiNNmQhQFtEikg5KkR41QnD96qVa.png" loading="lazy"
       videoUrl="https://videos.pexels.com/video-files/3770885/3770885-hd_1920_1080_30fps.mp4"
       kbClass="kenBurnsD"
       kbDuration={32}
