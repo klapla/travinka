@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@300;400;500&display=swap');
+@import 'tailwindcss';
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* { box-sizing: border-box; }
+::-webkit-scrollbar { display: none; }
+* { scrollbar-width: none; }
+
+/* ── Preloader: stroke draw ──────────────────────────────── */
+@keyframes preloaderDraw {
+  from { stroke-dashoffset: 1200; }
+  to   { stroke-dashoffset: 0; }
+}
+
+/* ── Ken-Burns variants (one per story scene) ────────────── */
+@keyframes kenBurnsA {
+  from { transform: scale(1.0)  translate(0%,    0%);    }
+  to   { transform: scale(1.11) translate(-2.5%, -1.5%); }
+}
+@keyframes kenBurnsB {
+  from { transform: scale(1.1)  translate(1.5%,  1.5%);  }
+  to   { transform: scale(1.0)  translate(-1%,   0.5%);  }
+}
+@keyframes kenBurnsC {
+  from { transform: scale(1.0)  translate(-1%,  -1%);    }
+  to   { transform: scale(1.09) translate(2%,    1%);    }
+}
+/* Scene 4 — epic slow pan across the lavender field */
+@keyframes kenBurnsD {
+  from { transform: scale(1.06) translate(-2%,  0%);     }
+  to   { transform: scale(1.0)  translate(2%,  -1%);     }
+}
+
+/* ── Scroll arrow ─────────────────────────────────────────── */
+@keyframes bounce-arrow {
+  0%, 100% { transform: translateY(0);   }
+  50%       { transform: translateY(9px); }
+}
+
+/* ── Manifesto-style floating dust ───────────────────────── */
+@keyframes float-particle {
+  0%, 100% { transform: translateY(0) translateX(0);     opacity: 0.06; }
+  33%       { transform: translateY(-16px) translateX(8px); opacity: 0.11; }
+  66%       { transform: translateY(9px) translateX(-5px);  opacity: 0.04; }
+}
+
+/* ── Site fade-in ─────────────────────────────────────────── */
+@keyframes site-enter {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.site-enter { animation: site-enter 0.8s ease forwards; }
+
+/* ── Whisper text reveal on scroll ───────────────────────── */
+@keyframes whisperReveal {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* ── Product card hover scale ────────────────────────────── */
+@keyframes cardPress {
+  from { transform: scale(1);     }
+  to   { transform: scale(0.972); }
+}
