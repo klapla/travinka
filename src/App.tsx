@@ -793,14 +793,14 @@ function FooterSection({ onCatalog }: { onCatalog: () => void }) {
 // ─── CATALOG PAGE ─────────────────────────────────────────────────────────────
 
 const PRODUCTS = [
-  { id: 1, title: 'Лавандовый туман',    price: '2 800 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/gqZ4HV8xrOJsSptrVfqYq2IY9IAtgwDMkUthEZzqj.png' },
-  { id: 2, title: 'Осенний сбор',        price: '3 400 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/gK7aMoux4esYct0by0Mzyy9H4fzFrX3I54nkSnbjF.png' },
-  { id: 3, title: 'Белая роща',          price: '4 100 ₽', tag: 'Свадебный',   img: 'https://s6.iimage.su/s/10/gK7aMoux4esYct0by0Mzyy9H4fzFrX3I54nkSnbjF.png' },
-  { id: 4, title: 'Пшеничный закат',     price: '2 600 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/goTEyjxxQUACRRaSnwVp5XYza1Hzhi40IabOBCpAE.png' },
-  { id: 5, title: 'Ботаника №5',         price: '5 200 ₽', tag: 'Премиум',     img: 'https://s6.iimage.su/s/10/g3JMrI1x8zyh0qmWCdG8Be4ecqKS4k3Fs8yoGOMz2.png' },
-  { id: 6, title: 'Свадебный букет',     price: '3 000 ₽', tag: 'Свадебный',   img: 'https://s6.iimage.su/s/10/g3JMrI1x8zyh0qmWCdG8Be4ecqKS4k3Fs8yoGOMz2.png' },
-  { id: 7, title: 'Вечная осень',        price: '3 800 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/gM5tcYqxO8wAlDMk1kg4EH1BlHD85Z5zh1SrSaMz5.png' },
-  { id: 8, title: 'Лавандовый рай',      price: '4 500 ₽', tag: 'Интерьерный', img: 'https://s6.iimage.su/s/10/ghPLAG7xKMQqCABmz7pz6btmWIiX6PMm2CiuDnA4o.png' },
+  { id: 1, title: 'Лавандовый туман',    price: '2 800 ₽', tag: 'Интерьерный', img: 'https://sun9-74.vkuserphoto.ru/s/v1/ig2/WCdtNjrSPreFBKKTwd1xNqcDDu6bcaYLr13TzxsRL513btj9exQDOSWqfy5DhzjzEQYUrhTdQaIr0OqvyFg5hfM_.jpg?quality=95&as=32x45,48x67,72x101,108x151,160x224,240x336,360x504,400x560&from=bu&u=P1q3jOu17G7lC0kl26c7mkRCsl9mAvBDu2Rd4Z11tKU&cs=400x0' },
+  { id: 2, title: 'Осенний сбор',        price: '3 400 ₽', tag: 'Интерьерный', img: 'https://sun9-9.vkuserphoto.ru/s/v1/ig2/JXqYLwEffCLjmobAIHCk2C_YcnL0xi_dM1w8OYBPrQYNh4BEiNWwjMNjkGlGGIAHlw5ztom5XgmBu0PC9xQlHBw0.jpg?quality=95&as=32x45,48x67,72x101,108x151,160x224,240x336,360x504,400x560&from=bu&u=epmFH7OOqj3sChO0sf0nDhhOKIFYUB2miiF8t0jbX2g&cs=400x0' },
+  { id: 3, title: 'Белая роща',          price: '4 100 ₽', tag: 'Свадебный',   img: 'https://sun9-34.vkuserphoto.ru/s/v1/ig2/IiAQws4tIy_q2lI3_pScL-A5LRn-yk6mHu1_m6bMTjk42TzYvlrisAfTRt0mM_LGe-kDp7f7lFQD3qH8W5ySOr96.jpg?quality=95&as=32x45,48x67,72x101,108x151,160x224,240x336,360x504,400x560&from=bu&cs=400x0' },
+  { id: 4, title: 'Пшеничный закат',     price: '2 600 ₽', tag: 'Интерьерный', img: 'https://sun9-27.vkuserphoto.ru/s/v1/ig2/CUpEgPpLSKmSE3IjFAhnbP5MKQDHHnOjE-fgcooNzsVmAl_bdmcCbJt5H0XlmAHJTtU3Ydjp7A4jSRYg5uXLxqUi.jpg?quality=95&as=32x45,48x67,72x101,108x151,160x224,240x336,360x504,400x560&from=bu&cs=400x0' },
+  { id: 5, title: 'Ботаника №5',         price: '5 200 ₽', tag: 'Премиум',     img: 'https://sun9-32.vkuserphoto.ru/s/v1/ig2/nYOt16NYSQsUMpOVOzCOGnUDmZBBL4G20d-Q-geRtU_RoFTVIFp3uP5aMnn5yVaDprDBYApXooSXDGIVwVbMmx_F.jpg?quality=95&as=32x45,48x67,72x101,108x151,160x224,240x336,360x504,400x560&from=bu&cs=400x0' },
+  { id: 6, title: 'Свадебный букет',     price: '3 000 ₽', tag: 'Свадебный',   img: 'https://sun9-30.vkuserphoto.ru/s/v1/ig2/uUg9_YZ9iNdMmhOhim4WcE3vKv4ZdGEHXCKCuUFjz8E76RJobz4INk3zXtBSTso4SMBAn3nBaqTkZwHMxMk1jn45.jpg?quality=95&as=32x45,48x67,72x101,108x151,160x224,240x336,360x504,400x560&from=bu&cs=400x0' },
+  { id: 7, title: 'Вечная осень',        price: '3 800 ₽', tag: 'Интерьерный', img: 'https://sun9-32.vkuserphoto.ru/s/v1/ig2/nYOt16NYSQsUMpOVOzCOGnUDmZBBL4G20d-Q-geRtU_RoFTVIFp3uP5aMnn5yVaDprDBYApXooSXDGIVwVbMmx_F.jpg?quality=95&as=32x45,48x67,72x101,108x151,160x224,240x336,360x504,400x560&from=bu&cs=400x0' },
+  { id: 8, title: 'Лавандовый рай',      price: '4 500 ₽', tag: 'Интерьерный', img: 'https://sun9-75.vkuserphoto.ru/s/v1/ig2/ztJms-h4IGWwbZeLaxFP04GJC8FP3wpJg0RkEa5dXfwrNKGftyAd1uEkIoTV8vYHQJEemMqJNOzUj_AlKDqspE0j.jpg?quality=95&as=32x45,48x67,72x101,108x151,160x224,240x336,360x504,400x560&from=bu&cs=400x0' },
 ];
 
 function ProductCard({ product }: { product: typeof PRODUCTS[0] }) {
